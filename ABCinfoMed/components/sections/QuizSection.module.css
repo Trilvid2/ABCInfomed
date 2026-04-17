@@ -1,0 +1,62 @@
+.figmaX-quiz {
+  background: #000;
+}
+
+.figmaX-quiz__badge {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.figmaX-quiz__card {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #cfd9ec;
+  padding: 22px;
+  box-shadow: 0 0 0 2px rgba(13, 69, 193, 0.3), 0 22px 38px rgba(7, 35, 99, 0.25);
+}
+
+.figmaX-quiz__card p {
+  margin: 0;
+  font-size: 13px;
+  color: #4e5664;
+}
+
+.figmaX-quiz__card h3 {
+  margin: 12px 0;
+  font-size: 22px;
+}
+
+.figmaX-quiz__card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.figmaX-quiz__card li {
+  border: 1px solid #d9deeb;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 15px;
+}
+
+.figmaX-quiz__option--active {
+  border-color: #1950c6;
+  background: #f0f5ff;
+}
+
+.figmaX-quiz__actions {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.figmaX-quiz__actions button:last-child {
+  background: #1347b8;
+  color: #fff;
+}

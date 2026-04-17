@@ -1,0 +1,43 @@
+:root {
+  --figmaX-color-bg: #f3f3f4;
+  --figmaX-color-surface: #ffffff;
+  --figmaX-color-text: #0f1115;
+  --figmaX-color-muted: #5f636d;
+  --figmaX-color-primary: #1347b8;
+  --figmaX-color-primary-2: #7c9fd9;
+  --figmaX-color-dark: #020203;
+  --figmaX-border: #d9dce3;
+  --figmaX-radius-xs: 8px;
+  --figmaX-radius-sm: 12px;
+  --figmaX-radius-md: 16px;
+  --figmaX-radius-lg: 20px;
+  --figmaX-container: 1440px;
+  --figmaX-shadow-soft: 0 8px 32px rgba(16, 26, 47, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--figmaX-color-text);
+  background: var(--figmaX-color-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  overflow: clip;
+}

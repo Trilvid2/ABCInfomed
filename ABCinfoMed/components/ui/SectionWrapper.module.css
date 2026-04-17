@@ -1,0 +1,15 @@
+.figmaX-section-wrapper {
+  padding: 88px 0;
+}
+
+@media (max-width: 1024px) {
+  .figmaX-section-wrapper {
+    padding: 72px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .figmaX-section-wrapper {
+    padding: 56px 0;
+  }
+}

@@ -1,0 +1,86 @@
+.figmaX-roadmap {
+  background: #f2f2f3;
+}
+
+.figmaX-roadmap h2 {
+  margin: 16px 0 20px;
+  font-size: clamp(30px, 2.8vw, 46px);
+}
+
+.figmaX-roadmap__tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: #ececed;
+  border-radius: 10px;
+  padding: 6px;
+  gap: 6px;
+}
+
+.figmaX-roadmap__tabs button {
+  border: 0;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px 8px;
+}
+
+.figmaX-roadmap__tabs button:first-child {
+  background: #fff;
+  box-shadow: var(--figmaX-shadow-soft);
+}
+
+.figmaX-roadmap__grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.figmaX-roadmap__card {
+  padding: 16px;
+}
+
+.figmaX-roadmap__card span {
+  font-size: 12px;
+  color: #1142aa;
+  background: #edf2ff;
+  border-radius: 999px;
+  padding: 4px 10px;
+  display: inline-block;
+}
+
+.figmaX-roadmap__card h3 {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.figmaX-roadmap__card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.figmaX-roadmap__card li {
+  font-size: 14px;
+  color: #30343f;
+  line-height: 1.4;
+}
+
+.figmaX-roadmap__action {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.figmaX-roadmap__action button {
+  background: #0f42b3;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .figmaX-roadmap__tabs,
+  .figmaX-roadmap__grid {
+    grid-template-columns: 1fr;
+  }
+}

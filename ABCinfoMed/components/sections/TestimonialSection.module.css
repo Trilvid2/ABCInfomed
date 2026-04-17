@@ -1,0 +1,44 @@
+.figmaX-testimonial {
+  background: #000;
+}
+
+.figmaX-testimonial__badge {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.figmaX-testimonial__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.figmaX-testimonial__card {
+  padding: 18px;
+  border-color: #4f6ed8;
+}
+
+.figmaX-testimonial__stars {
+  margin: 0 0 8px;
+  color: #1a4dbf;
+  letter-spacing: 2px;
+}
+
+.figmaX-testimonial__card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.figmaX-testimonial__card small {
+  margin-top: 10px;
+  display: block;
+  color: #545b66;
+}
+
+@media (max-width: 900px) {
+  .figmaX-testimonial__list {
+    grid-template-columns: 1fr;
+  }
+}

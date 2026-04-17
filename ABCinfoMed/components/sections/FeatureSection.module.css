@@ -1,0 +1,51 @@
+.figmaX-feature {
+  background: #e9e9ea;
+}
+
+.figmaX-feature__grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.figmaX-feature h2 {
+  margin: 16px 0;
+  font-size: clamp(30px, 3vw, 52px);
+  line-height: 1.1;
+}
+
+.figmaX-feature p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #333843;
+}
+
+.figmaX-feature__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.figmaX-feature__card {
+  padding: 18px;
+}
+
+.figmaX-feature__card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.figmaX-feature__card p {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .figmaX-feature__grid {
+    grid-template-columns: 1fr;
+  }
+}

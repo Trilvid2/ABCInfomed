@@ -1,0 +1,49 @@
+.figmaX-pricing {
+  background: #ececed;
+}
+
+.figmaX-pricing__header {
+  display: grid;
+  place-items: center;
+  gap: 18px;
+}
+
+.figmaX-pricing__header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(32px, 3.1vw, 58px);
+  line-height: 1.14;
+}
+
+.figmaX-pricing__grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.figmaX-pricing__card {
+  min-height: 220px;
+  border-radius: 16px;
+  background: #cfcfd1;
+}
+
+.figmaX-pricing__card--wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+  .figmaX-pricing__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .figmaX-pricing__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .figmaX-pricing__card--wide {
+    grid-column: span 1;
+  }
+}

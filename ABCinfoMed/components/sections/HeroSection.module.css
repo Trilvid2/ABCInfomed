@@ -1,0 +1,49 @@
+.figmaX-hero {
+  background: #000;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.figmaX-hero__badge-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+
+.figmaX-hero__cards {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.figmaX-hero__card {
+  border-radius: var(--figmaX-radius-md);
+  overflow: hidden;
+  background: #fff;
+  height: 220px;
+  display: grid;
+  place-items: center;
+}
+
+.figmaX-hero__card--featured {
+  background: #09142f;
+  height: 300px;
+}
+
+.figmaX-hero__card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .figmaX-hero__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .figmaX-hero__card,
+  .figmaX-hero__card--featured {
+    height: 220px;
+  }
+}

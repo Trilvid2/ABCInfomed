@@ -1,0 +1,5 @@
+.figmaX-card {
+  background: var(--figmaX-color-surface);
+  border-radius: var(--figmaX-radius-md);
+  border: 1px solid #e7e9ee;
+}

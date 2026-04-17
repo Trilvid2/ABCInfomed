@@ -1,0 +1,26 @@
+.figmaX-button {
+  border: 0;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  padding: 14px 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.figmaX-button:hover {
+  transform: translateY(-1px);
+}
+
+.figmaX-button--primary {
+  background: #ffffff;
+  color: var(--figmaX-color-primary);
+  box-shadow: 0 8px 22px rgba(12, 49, 140, 0.22);
+}
+
+.figmaX-button--ghost {
+  background: transparent;
+  color: var(--figmaX-color-primary);
+  border: 1px solid var(--figmaX-border);
+}

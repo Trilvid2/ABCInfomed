@@ -1,0 +1,10 @@
+.figmaX-container {
+  width: min(100% - 48px, var(--figmaX-container));
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .figmaX-container {
+    width: min(100% - 32px, var(--figmaX-container));
+  }
+}

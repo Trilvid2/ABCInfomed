@@ -1,0 +1,35 @@
+.figmaX-cta {
+  background: #000;
+  padding: 64px 0 0;
+}
+
+.figmaX-cta__card {
+  border-radius: 12px;
+  background: linear-gradient(110deg, #00379e, #5f85c4);
+  color: #fff;
+  padding: 34px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  transform: translateY(42px);
+}
+
+.figmaX-cta__card h2 {
+  margin: 0;
+  font-size: clamp(30px, 3vw, 52px);
+  line-height: 1.1;
+}
+
+.figmaX-cta__card p {
+  margin: 10px 0 0;
+  max-width: 720px;
+  color: #eaf0ff;
+}
+
+@media (max-width: 900px) {
+  .figmaX-cta__card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
